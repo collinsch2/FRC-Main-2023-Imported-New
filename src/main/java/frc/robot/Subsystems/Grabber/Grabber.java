@@ -26,7 +26,6 @@ public class Grabber extends SubsystemBase {
     }
     public void toggleDeploy() {
         grabberPiston.toggle();
-    
     }
 
     public void setDeploy() {
@@ -45,8 +44,5 @@ public class Grabber extends SubsystemBase {
     public Value getPosition() {
         return grabberPiston.get();
     }
-
-
-
 
 }
